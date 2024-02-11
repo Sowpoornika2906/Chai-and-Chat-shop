@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: rgb(104, 121, 85);
+  width: 100%;
+  height: 100px;
+}
+
+.title {
+  font-style: italic;
+  font-size: 5rem;
+  padding: 40pc 0 10px 30px;
+  margin-right: 30%;
+  color: white;
+}
+
+.navlink,
+.title,
+.list {
+  display: inline;
+  margin-top: 1px;
+}
+
+.navlink,
+.list,
+a {
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navlink a {
+  border-bottom: 2px pink solid;
+  border-radius: 10px;
+}
+/* About */
+
+.click {
+  color: white;
+  position: absolute;
+  top: 16%;
+  left: 3%;
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+}
+
+#about {
+  background-color: rgb(2, 2, 2);
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.frntimg-container {
+  display: flex;
+  gap: 10px;
+  width: 50%;
+  height: 200px;
+}
+
+.frntimg-container img {
+  width: 5%;
+  height: 100%;
+  position: relative;
+  left: 20%;
+  margin-top: 30%;
+  border: 2px solid white;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: all ease-out 0.5s;
+  cursor: pointer;
+}
+
+.frntimg-container img:hover {
+  width: 35%;
+}
+
+.fst-caption {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+
+.about-caption {
+  font-size: 80px;
+  font-family: "Lobster", sans-serif;
+  color: white;
+  padding: 30px 0 10px 30px;
+}
+
+.fst-pg {
+  position: absolute;
+  left: 60%;
+  top: 25%;
+}
+
+.fst-pg pre {
+  color: white;
+  font-size: 35px;
+}
+
+/* Explore */
+
+.ex-main img {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.ex-main pre {
+  position: absolute;
+  color: snow;
+  top: 110%;
+  left: 5%;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+}
+
+.explorebtn p {
+  position: absolute;
+  top: 165%;
+  left: 12%;
+  color: black;
+  font-size: 40px;
+  width: 200px;
+  height: 70px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  filter: drop-shadow(50px 5px 5px gray);
+  cursor: pointer;
+}
+
+.explore-btn {
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+
+.explorebtn :hover {
+  color: black;
+  background-color: gray;
+  border-color: black;
+}
+
+/* Contact */
+
+#contact {
+  width: 100%;
+  height: 500px;
+  background-image: url(cover2.jpeg);
+  position: absolute;
+  top: 75rem;
+}
+
+.con-heading {
+  font-size: 70px;
+  font-family: "Lobster", sans-serif;
+  margin-top: 10rem;
+  margin-left: 50px;
+  color: white;
+}
+
+ 
+ .co-link, 
+ .co-img{
+  display: inline;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  top: 15px;
+  left: 40px;
+  margin: 5px;
+  
+}
+
+.co-img:hover{
+  width: 65px;
+  height: 60px;
+  border: 3px solid white;
+  filter: drop-shadow(20px 9px 10px rgb(204, 183, 183));
+  transition: ease 100ms;
+  
+}
+
+.contact-details{
+  position: absolute;
+  margin-left: 55rem;
+  top: 15px;
+}
+
+.co-add{
+  color: white;
+  font-size: 50px;
+  font-family: "Lobster", sans-serif;
+  margin-top: 10px;
+}
+
+.co-details, 
+.contact-link{
+  color: snow;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 20px;
+  font-family: "Dancing Script", cursive;
+}

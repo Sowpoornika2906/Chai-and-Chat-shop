@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  nav {
+    background-color: rgb(104, 121, 85);
+    width: 100%;
+    height: 100px;
+  }
+  
+  .title {
+    font-style: italic;
+    font-size: 5rem;
+    padding: 40pc 0 10px 30px;
+    margin-right: 30%;
+    color: white;
+  }
+  
+  .navlink,
+  .title,
+  .list {
+    display: inline;
+    margin-top: 1px;
+  }
+  
+  .navlink,
+  .list,
+  a {
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .navlink a {
+    border-bottom: 2px pink solid;
+    border-radius: 10px;
+  }
+  
+
+  /* About food */
+
+
+  .food{
+    width: 300px;
+    height: 328rem;
+    background-color: rgb(180, 240, 83);
+    
+  }
+
+
+  .exside details, summary{
+    position: relative;
+    margin-left: 10px;
+    top: 5px;
+  }
+
+  summary{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .family li{
+    margin-left: 100px;
+    text-decoration: none; 
+    font-size: 20px;
+  }
+
+
+  .food-explain{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(207, 238, 146);
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    flex-wrap: wrap;
+  } 
+
+
+  .food-head{
+    margin-left: 10px;
+    font-size: 40px;
+    margin-top: 5px;
+  }
+
+  .food-ex{
+    margin-top: 20px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+  }
+
+  .food-imgex{
+    margin-left: 60px;
+    margin-top: 20px;
+    width:400px;
+    height:300px;
+  }
+
+  
+  .sub-food{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+
+  }
+
+
+  /* Contact */
+
+#contact {
+  width: 100%;
+  height: 500px;
+  background-image: url(cover2.jpeg);
+  position: absolute;
+  top: 334rem;
+}
+
+.con-heading {
+  font-size: 70px;
+  font-family: "Lobster", sans-serif;
+  margin-top: 10rem;
+  margin-left: 50px;
+  color: white;
+}
+
+ 
+ .co-link, 
+ .co-img{
+  display: inline;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  top: 15px;
+  left: 40px;
+  margin: 5px;
+  
+}
+
+.co-img:hover{
+  width: 65px;
+  height: 60px;
+  border: 3px solid white;
+  filter: drop-shadow(20px 9px 10px rgb(204, 183, 183));
+  transition: ease 100ms;
+  
+}
+
+.contact-details{
+  position: absolute;
+  margin-left: 55rem;
+  top: 15px;
+}
+
+.co-add{
+  color: white;
+  font-size: 50px;
+  font-family: "Lobster", sans-serif;
+  margin-top: 10px;
+}
+
+.co-details, 
+.contact-link{
+  color: snow;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 20px;
+  font-family: "Dancing Script", cursive;
+}
